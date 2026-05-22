@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.joelverastegui.miscelaneos",
+    "sha256_cert_fingerprints":
+    ["72:AE:9F:55:A8:E3:BB:2C:51:44:D1:38:D6:8D:A0:CA:C8:F0:E7:52:71:3D:F9:C2:2A:02:77:35:16:D3:98:69"]
+  }
+}]
