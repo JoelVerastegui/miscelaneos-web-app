@@ -1,0 +1,15 @@
+:{$PORT} {
+    # Define la raíz del proyecto
+    root * .
+
+    # Permite explícitamente el acceso a la carpeta .well-known
+    @wellknown path /.well-known/*
+    handle @wellknown {
+        file_server
+    }
+
+    # Sirve el resto de tus archivos estáticos (HTML/CSS)
+    handle {
+        file_server
+    }
+}
